@@ -23,7 +23,7 @@
              ["src/{{sanitized}}/subs.cljs" (render "subs.cljs" data)]
              ["src/{{sanitized}}/utils.cljs" (render "utils.cljs" data)]
              ["src/{{sanitized}}/views.cljs" (render "views.cljs" data)]
-             ["gitignore" (render ".gitignore" data)]
+             [".gitignore" (render "gitignore" data)]
              ["README.md" (render "README.md" data)]
              ["package.json" (render "package.json" data)]
              ["project.clj" (render "project.clj" data)]
