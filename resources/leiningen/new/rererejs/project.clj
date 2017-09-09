@@ -20,7 +20,7 @@
   :clean-targets ^{:protect false} ["resources/public/js/compiled" "target"]
 
   :figwheel {:css-dirs ["resources/public/css"]
-             :ring-handler {{name}}.core/app}
+             :ring-handler {{name}}.server/app}
 
   :profiles
   {:dev
