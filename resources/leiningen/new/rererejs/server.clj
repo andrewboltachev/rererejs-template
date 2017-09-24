@@ -1,4 +1,4 @@
-(ns {{name}}.core
+(ns {{name}}.server
   (:require [compojure
              [core :refer :all]
              [route :as route]]
